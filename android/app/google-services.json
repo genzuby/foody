@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "363925732963",
+    "firebase_url": "https://mukbo-a2bea.firebaseio.com",
+    "project_id": "mukbo-a2bea",
+    "storage_bucket": "mukbo-a2bea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363925732963:android:55e8e77c324e8c7497c256",
+        "android_client_info": {
+          "package_name": "com.berlintbs.mukbo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363925732963-qm8t2pb54esebpn32j2sa814tpeo71fi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgWWcj7N_1fp29e_qkC2ehrL5C3L29e4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363925732963-qm8t2pb54esebpn32j2sa814tpeo71fi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
