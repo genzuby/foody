@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:foodprj/services/auth.dart';
-import 'package:foodprj/settings/global.dart';
+import 'package:foodprj/screens/common/global.dart';
 
 class Home extends StatelessWidget {
   final AuthService _auth = AuthService();

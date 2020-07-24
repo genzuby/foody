@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:foodprj/settings/global.dart';
+import 'package:foodprj/screens/common/global.dart';
 
 class TextFormInputWidget extends StatelessWidget {
   final String hintText;

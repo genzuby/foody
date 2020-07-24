@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import '../settings/global.dart';
+import 'package:foodprj/screens/common/global.dart';
 
-class AuthButton extends StatelessWidget {
+class AuthButtonWidget extends StatelessWidget {
   final String title;
   final bool hasBorder;
   final Color bgColor;
   final Function onPress;
   final String bender;
 
-  AuthButton(
+  AuthButtonWidget(
       {this.title, this.hasBorder, this.bgColor, this.onPress, this.bender});
 
   @override

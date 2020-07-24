@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:foodprj/screens/auth/signin.dart';
 import 'package:foodprj/screens/auth/signup.dart';
-import '../../settings/global.dart';
-import 'package:foodprj/widgets/auth_button.dart';
+import 'package:foodprj/screens/common/global.dart';
+import 'package:foodprj/screens/widgets/authbutton_widget.dart';
 
 class IntroMain extends StatefulWidget {
   @override
@@ -44,7 +44,7 @@ class _IntroMainState extends State<IntroMain> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.end,
               children: <Widget>[
-                AuthButton(
+                AuthButtonWidget(
                   onPress: () {
                     Navigator.of(context).push(MaterialPageRoute(
                         fullscreenDialog: true,
@@ -55,7 +55,7 @@ class _IntroMainState extends State<IntroMain> {
                   bgColor: Global.mainRed,
                 ),
                 SizedBox(height: 10.0),
-                AuthButton(
+                AuthButtonWidget(
                   onPress: () {},
                   title: 'Sign In with Google',
                   bender: 'assets/google.png',
@@ -63,7 +63,7 @@ class _IntroMainState extends State<IntroMain> {
                   bgColor: Global.googleRed,
                 ),
                 SizedBox(height: 10.0),
-                AuthButton(
+                AuthButtonWidget(
                   onPress: () {},
                   title: 'Sign In with facebook',
                   bender: 'assets/facebook.png',
@@ -71,7 +71,7 @@ class _IntroMainState extends State<IntroMain> {
                   bgColor: Global.facebookBlue,
                 ),
                 SizedBox(height: 10.0),
-                AuthButton(
+                AuthButtonWidget(
                   onPress: () {
                     Navigator.of(context).push(MaterialPageRoute(
                         fullscreenDialog: true,
